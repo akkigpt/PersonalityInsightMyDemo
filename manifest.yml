@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: PersonalityInsightMyDemo
+  host: PersonalityInsightMyDemo
+  disk_quota: 1024M
+  services:
+  - PersonalityInsightMyDemo-personality_insights
